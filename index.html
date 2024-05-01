@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styleme.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="./images/dog.jpeg" width="50" height="50" alt="dog" class="logo">
+        <span> Hello, Chris Truong</span>
+        <a href="">Log out</a>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h3>Product list</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>Nodejs</td>
+                    <td>4.19</td>
+                    <td>18</td>
+                    <td><img src="./images/cart.png" class="cart-btn"></td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>2.19</td>
+                    <td>83</td>
+                    <td><img src="./images/cart.png" class="cart-btn"></td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>9.29</td>
+                    <td>34</td>
+                    <td><img src="./images/cart.png" class="cart-btn"></td>
+                </tr>
+            </table>
+
+            <table class="shopping-cart-table">
+                <thead>
+                    <h3>Your shopping cart</h3>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>Nodejs</td>
+                        <td>19.99</td>
+                        <td>81</td>
+                        <td class="quantity-cell">
+                            <div>—</div>
+                            <div class="quantity-box">2</div>
+                            <div>+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nodejs</td>
+                        <td>9.99</td>
+                        <td>8</td>
+                        <td class="quantity-cell">
+                            <div>—</div>
+                            <div class="quantity-box">2</div>
+                            <div>+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nodejs</td>
+                        <td>9.99</td>
+                        <td>8</td>
+                        <td class="quantity-cell">
+                            <div>—</div>
+                            <div class="quantity-box">2</div>
+                            <div>+</div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Sum:</td>
+                        <td colspan="1">$180</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <div class="place-ord-btn-container">
+                <button class="place-ord-btn bnt">Place Order</button>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwap-2024.github.io%2Flab2%2Faboutme.html">
+                <img src="images/html_checker.png" alt="Valid HTML!">
+            </a>
+        </p>
+        <p>
+            <a
+                href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwap-2024.github.io%2Flab2%2Faboutme.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img src="./images/css_checker.png" alt="Valid CSS!">
+
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

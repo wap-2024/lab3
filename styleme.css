@@ -1,0 +1,112 @@
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-btn {
+    width: 25px;
+    height: 25px;
+    color: red
+}
+.cart-btn:hover {
+    cursor: pointer;
+}
+.logo {
+    border-radius: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+table tbody td {
+    padding: 8px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tfoot { 
+    vertical-align:middle;
+}
+
+table tfoot td:nth-last-child(2) {
+    text-align: right;
+    padding: 10px;
+}
+
+
+.place-ord-btn-container {
+    display: flex; 
+    justify-content: flex-end;
+    margin:20px;
+}
+
+/* Standard button styles */
+button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+button:disabled, .btn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.small-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+/* Large button */
+.large-btn {
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
+.shopping-cart-table .quantity-cell {
+    display: flex;
+    border-width: 0;
+    justify-content:center;
+    align-items: center;
+}
+
+.shopping-cart-table .quantity-cell  .quantity-box{
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
