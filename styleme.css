@@ -104,9 +104,19 @@ button:disabled, .btn:disabled {
     align-items: center;
 }
 
-.shopping-cart-table .quantity-cell  .quantity-box{
+.shopping-cart-table .quantity-cell .quantity-box{
     border: 1px solid gray;
     padding: 10px 10px 10px 10px;
+    width: 50px;
+    text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.shopping-cart-table .quantity-cell .quantity-operation:hover{
+    cursor: pointer;
+}
+
+.shopping-cart-table .quantity-cell .quantity-box::-webkit-inner-spin-button{
+    -webkit-appearance: none;
 }
